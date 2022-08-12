@@ -1,8 +1,8 @@
-package com.jjkr.PetStoreFullStack.Service;
+package com.jjkr.PetStoreFullStack.REST.Service;
 
 
-import com.jjkr.PetStoreFullStack.Dao.CustomerDao;
-import com.jjkr.PetStoreFullStack.Entity.Customer;
+import com.jjkr.PetStoreFullStack.REST.Dao.CustomerDao;
+import com.jjkr.PetStoreFullStack.REST.Entity.Customer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

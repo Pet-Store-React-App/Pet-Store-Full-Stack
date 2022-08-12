@@ -1,8 +1,8 @@
-package com.jjkr.PetStoreFullStack.Controller;
+package com.jjkr.PetStoreFullStack.REST.Controller;
 
 
-import com.jjkr.PetStoreFullStack.Entity.Customer;
-import com.jjkr.PetStoreFullStack.Service.CustomerServImpl;
+import com.jjkr.PetStoreFullStack.REST.Entity.Customer;
+import com.jjkr.PetStoreFullStack.REST.Service.CustomerServImpl;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 

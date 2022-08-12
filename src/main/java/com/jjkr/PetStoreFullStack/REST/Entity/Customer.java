@@ -1,4 +1,4 @@
-package com.jjkr.PetStoreFullStack.Entity;
+package com.jjkr.PetStoreFullStack.REST.Entity;
 
 import javax.persistence.*;
 
