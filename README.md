@@ -1,6 +1,6 @@
 # Pet-Store-Full-Stack
 ## Team-Project: 2
-***Team Members***
+***Team Members:***
 **Jacob Stout, Joel Brinson, Kevin Drake, Randy Kim**
 ## Motivation
 *This Program is a Full-Stack-Web-Service* We have created an online Pet-Store. This program uses Springboot, and React to allow web services. We have an **Admin Status**, where others would be a **Customer**. You can create an account, and browse our items. We have *Animals*, and *Animal Accessories* available for purchase.
@@ -14,7 +14,7 @@
 4. Once Everything is updated, and IntelliJ shows that you have the *Maven* library you can then run. 
 5. Create a **Customer** account, and view our selection!!!
 
-![WebPage](https://github.com/Pet-Store-React-App/Pet-Store-Full-Stack/blob/main/Pet-Store-Page.png)
+![WebPage](https://github.com/Pet-Store-React-App/Pet-Store-Full-Stack/blob/main/Pet-Store-Page.png = 100x100)
 
 ## Code Snippet
 *I chose this portion of code because it shows the Animal Entity, as well as the Annotations to **Auto Generate** the Sequence of ID's for this specific entity*
