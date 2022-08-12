@@ -1,7 +1,8 @@
-import React from 'react';
-import Navbar from './Navbar';
-import Search from './Search';
 import './Products.css';
+
+import Navbar from './Navbar';
+import React from 'react';
+import Search from './Search';
 
 function Products() {
     return (
