@@ -14,7 +14,7 @@
 4. Once Everything is updated, and IntelliJ shows that you have the *Maven* library you can then run. 
 5. Create a **Customer** account, and view our selection!!!
 
-![<img src="[https://github.com/Pet-Store-React-App/Pet-Store-Full-Stack/blob/main/Pet-Store-Page.png]" width="250"/>](https://github.com/Pet-Store-React-App/Pet-Store-Full-Stack/blob/main/Pet-Store-Page.png)
+![<img src="[WebPage]" width="250px"/>](https://github.com/Pet-Store-React-App/Pet-Store-Full-Stack/blob/main/Pet-Store-Page.png)
 
 ## Code Snippet
 *I chose this portion of code because it shows the Animal Entity, as well as the Annotations to **Auto Generate** the Sequence of ID's for this specific entity*
