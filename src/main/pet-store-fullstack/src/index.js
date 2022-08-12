@@ -9,6 +9,8 @@ import Products from './Products';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
+import LogIn from './LogIn';
+import CreateAccount from './CreateAccount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
@@ -19,6 +21,9 @@ root.render(
         <Route path='/products' element={<Products />}></Route>
         <Route path='/contact' element={<ContactUs />}></Route>
         <Route path='/order' element={<Order />}></Route>
+        <Route path='/LogIn' element={<LogIn />}></Route>
+        <Route path='/Create' element={<CreateAccount />}></Route>
+      
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

@@ -27,6 +27,24 @@ public class AdminService {
         }
         return admin;
     }
+    public Admin getAdminByInfo(String email, String pass){
+        List<Admin> list = this.dao.findAll();
+        Admin a = null;
+        for (Admin admin: list) {
+            if (admin.getEmail().equals(email)){
+                if (admin.getPassword().equals(pass)) {
+                    a = admin;
+                }
+                else {
+                    throw new RuntimeException("Incorrect Password");
+                }
+            }
+            else {
+                throw new RuntimeException("Please Double check the email address");
+            }
+        }
+        return a;
+    }
     public Admin updateAdmin(Admin admin){
         return this.dao.save(admin);
     }

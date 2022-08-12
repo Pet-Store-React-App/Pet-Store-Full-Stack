@@ -11,6 +11,8 @@ function Products() {
             </header>
             <Navbar />
             <Search />
+            <a href='http://localhost:4000/animals'>Animals</a> <br />
+                <a href='http://localhost:4000/items'>Accessories</a>
         </div>
     );
 }

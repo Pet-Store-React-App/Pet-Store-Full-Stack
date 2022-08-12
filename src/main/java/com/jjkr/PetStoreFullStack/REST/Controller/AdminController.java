@@ -21,6 +21,9 @@ public class AdminController {
     public Admin getAdminById(@PathVariable String id){
         return this.impl.getAdminById(Integer.parseInt(id));
     }
+    public Admin getAdminByInfo(String email, String pass){
+        return this.impl.getAdminByInfo(email, pass);
+    }
     @PutMapping("/admins")
     public Admin updateAdmin(@RequestBody Admin admin){
         return this.impl.updateAdmin(admin);
