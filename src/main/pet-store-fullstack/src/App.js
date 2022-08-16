@@ -1,6 +1,7 @@
-import Navbar from './Navbar';
-import Products from './Products';
-import React from 'react';
+import Navbar from "./Navbar";
+import Products from "./Products";
+import React from "react";
+
 function App() {
   return (
     <div className="App">
@@ -8,10 +9,13 @@ function App() {
       <header className="App-header">
         <h1>Pet Store</h1>
       </header>
-      
-      <p>Welcome to the Pet Store. Feel free to have a look around, contact us about any questions you have, or buy something when you're ready.</p>
+      <div className="intro">
+        <p>
+          Welcome to the Pet Store. Feel free to have a look around, contact us
+          about any questions you have, or buy something when you're ready.
+        </p>
+      </div>
       <Products />
-       
     </div>
   );
 }
