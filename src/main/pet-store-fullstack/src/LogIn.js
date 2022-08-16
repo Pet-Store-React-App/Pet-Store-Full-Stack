@@ -1,24 +1,29 @@
-import React from 'react'
-import './LogIn.css'
-import Navbar from './Navbar'
+import Navbar from "./Navbar";
+import React from "react";
+
 const LogIn = () => {
   return (
     <div>
-        <Navbar />
-        <form className='logInForm'>
-            <h1>Log in</h1>
-            <div className='email'>
-            <label>Email: </label>
-            <input type="email"></input>
-            </div><br />
-            <div className='password'>
-            <label>Password: </label>
-            <input type="password"></input>
-            </div><br />
-            <input type="submit" value="Submit"></input>
-        </form>
-    </div>
-  )
-}
+      <Navbar />
+      <div className="App-header">
+        <h1>Log In</h1>
+      </div>
+    <div className="Form">
+      <form >
+        <label>Email: </label>
+        <input type="email"></input>
 
-export default LogIn
+        <br />
+
+        <label>Password: </label>
+        <input type="password"></input>
+
+        <br />
+        <input type="submit" value="Submit"></input>
+      </form>
+      </div>
+    </div>
+  );
+};
+
+export default LogIn;

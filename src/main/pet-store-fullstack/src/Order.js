@@ -1,6 +1,5 @@
-import React from 'react';
 import Navbar from './Navbar';
-import './Order.css';
+import React from 'react';
 
 function Order() {
     return (
