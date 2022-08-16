@@ -1,7 +1,7 @@
-import {useState, useEffect} from "react";
-import React from "react";
+import {useEffect, useState} from "react";
+
 import Navbar from "./Navbar";
-import './ContactUs.css';
+import React from "react";
 
 function ContactUs() {
 
@@ -69,10 +69,11 @@ function ContactUs() {
 
     return (
         <div className="ContactUs">
-            <header className="ContactUs-header">
-                <h2>Contact Us</h2>
+          <Navbar />
+            <header className="App-header">
+                <h1>Contact Us</h1>
             </header>
-            <Navbar />
+            
             <div className="Form">
                 <form onSubmit={handleSubmit}>
                 <label for="fullName">

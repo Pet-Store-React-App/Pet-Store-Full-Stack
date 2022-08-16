@@ -4,13 +4,13 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import App from './App';
 import ContactUs from './ContactUs';
+import CreateAccount from './CreateAccount';
+import LogIn from './LogIn';
 import Order from './Order';
 import Products from './Products';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import reportWebVitals from './reportWebVitals';
-import LogIn from './LogIn';
-import CreateAccount from './CreateAccount';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
