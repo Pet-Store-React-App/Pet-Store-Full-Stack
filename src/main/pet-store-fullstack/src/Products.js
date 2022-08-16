@@ -7,8 +7,8 @@ function Products() {
       
         <h3>Products</h3>
       <Search />
-      <a href="http://localhost:4000/animals">Animals</a> <br />
-      <a href="http://localhost:4000/items">Accessories</a>
+      <a href="http://localhost:4000/animals" className="btn">Animals</a> <br />
+      <a href="http://localhost:4000/items" className="btn">Accessories</a>
     </div>
   );
 }
