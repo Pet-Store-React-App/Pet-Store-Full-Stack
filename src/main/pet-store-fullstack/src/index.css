@@ -17,10 +17,17 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-a{
+a {
   text-decoration: none;
   color: rgba(159, 36, 159, 0.816);
+ 
 }
+
+.createLink {
+  background-color: rgb(234, 234, 144);
+  width: fit-content;
+}
+
 .fullName {
   color: black;
 }
@@ -76,10 +83,8 @@ h3 {
 p {
   background-color: rgb(109, 176, 234);
   width: 50%;
-  
- 
 }
-.intro{
+.intro {
   display: flex;
   justify-content: center;
 }

@@ -1,5 +1,10 @@
+import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import React from "react";
+
+const result = () => {
+  alert("You are now logged in");
+};
 
 const LogIn = () => {
   return (
@@ -8,23 +13,28 @@ const LogIn = () => {
       <div className="App-header">
         <h1>Log In</h1>
       </div>
-    <div className="Form">
-      <form >
-        <label>Email: </label>
-        <input type="email"></input>
+      <div className="Form">
+        <form className="logInForm">
+          <label>Email: </label>
+          <input type="email"></input>
 
-        <br />
-        <br />
+          <br />
+          <br />
 
+          <label>Password: </label>
+          <input type="password"></input>
 
-        <label>Password: </label>
-        <input type="password"></input>
+          <br />
+          <br />
 
-        <br />
-        <br />
-
-        <input type="submit" value="Submit"></input>
-      </form>
+          <input type="submit" value="Submit" onClick={result}></input>
+          <br />
+          <br />
+          <Link className="createLink" to="/Create">
+            Create Account
+          </Link>
+          <br />
+        </form>
       </div>
     </div>
   );

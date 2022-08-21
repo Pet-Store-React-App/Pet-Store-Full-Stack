@@ -16,9 +16,7 @@ const Navbar = () => {
       <div className="btn">
         <Link to="/LogIn">Log In</Link>
       </div>
-      <div className="btn">
-        <Link to="/Create">Create Account</Link>
-      </div>
+      
     </div>
   );
 };
