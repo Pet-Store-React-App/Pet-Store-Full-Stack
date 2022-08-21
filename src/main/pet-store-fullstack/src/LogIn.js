@@ -1,12 +1,44 @@
+import { useEffect, useState } from "react";
+
+import App from "./App"
 import { Link } from "react-router-dom";
 import Navbar from "./Navbar";
 import React from "react";
 
-const result = () => {
-  alert("You are now logged in");
-};
+function LogIn() {
+  const result = () => {
+    alert("You are now logged in");
+  };
 
-const LogIn = () => {
+  const vals = { email: "", password: "" };
+  const [values, setValues] = useState(vals);
+  const [errors, setErrors] = useState({});
+  const [isSubmit, setIsSubmit] = useState(false);
+
+  const handleSubmit = (e) => {
+    // e.preventDefault();
+    
+    setErrors(validate(values));
+    setIsSubmit(true);
+  };
+
+  const validate = (values) => {
+    const errors = {};
+
+    const regEmail = /^[a-zA-Z0-9]+@(?:[a-zA-Z0-9]+\.)+[A-Za-z]+$/;
+    // eslint-disable-next-line
+
+    if (!values.email) {
+      errors.email = "E-mail Address is required";
+    } else if (!regEmail.test(values.email)) {
+      errors.email = "E-mail Address is invalid";
+    } else if (!values.password) {
+      errors.phone = "Password is required";
+    }
+
+    return errors;
+  };
+
   return (
     <div>
       <Navbar />
@@ -14,7 +46,7 @@ const LogIn = () => {
         <h1>Log In</h1>
       </div>
       <div className="Form">
-        <form className="logInForm">
+        <form className="logInForm" onSubmit={handleSubmit}>
           <label>Email: </label>
           <input type="email"></input>
 
@@ -38,6 +70,6 @@ const LogIn = () => {
       </div>
     </div>
   );
-};
+}
 
 export default LogIn;

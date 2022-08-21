@@ -15,7 +15,7 @@ function CreateAccount() {
   };
 
   const handleSubmit = (e) => {
-    e.preventDefault();
+    // e.preventDefault();
     setErrors(validate(values));
     setIsSubmit(true);
   };
